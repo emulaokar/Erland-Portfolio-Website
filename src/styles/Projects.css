@@ -1,0 +1,57 @@
+.projects {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project1 {
+    width: 100%;
+    height: 35%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .pic{
+    width: 100%;
+    height: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .projects .project1 h1 {
+    font-weight: 400;
+    font-size: 70px;
+    color: black;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-40px);
+  }
+  .projects .project1 p {
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    width: 60%;
+    height: 30px;
+    padding-left: 20%;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-40px);
+  }
+
+  .s1 {
+      display: block;
+      text-align: center;
+  }
+
+  .p2 {
+      font-size: 50px;
+      font-display: flex;
+  }
+  .s2 {
+    display: block;
+    text-align: center;
+}
